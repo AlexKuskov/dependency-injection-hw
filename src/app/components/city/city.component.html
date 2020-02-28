@@ -1,0 +1,9 @@
+<div class="cities">
+  <div class="city" *ngFor="let city of cities">
+    <h2 class="city__heading">{{ city | cityRender }}</h2>
+    <p class="city__citizens-title">Some info about citizens:</p>
+    <app-citizen></app-citizen>
+  </div>
+</div>
+
+

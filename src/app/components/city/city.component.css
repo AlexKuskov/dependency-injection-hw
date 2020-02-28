@@ -1,0 +1,20 @@
+.cities {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.city {
+  display: inline-block;
+  width: 30%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+.city__heading {
+  font-size: 18px;
+}
+
+.city__citizens-title {
+  font-style: italic;
+}
